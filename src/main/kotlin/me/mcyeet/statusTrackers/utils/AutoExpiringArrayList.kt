@@ -1,4 +1,4 @@
-package me.mcyeet.templateplugin.utils
+package me.mcyeet.statusTrackers.utils
 
 import java.util.*
 

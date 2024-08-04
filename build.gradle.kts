@@ -1,7 +1,7 @@
 plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
-    kotlin("kapt") version "1.9.0"
-    kotlin("jvm") version "1.9.0"
+    //kotlin("kapt") version "1.9.0"
+    kotlin("jvm") version "2.0.0"
     java
 }
 
@@ -17,7 +17,7 @@ repositories {
     maven("https://oss.sonatype.org/content/groups/public/")
 
     //maven("https://repo.extendedclip.com/content/repositories/placeholderapi/")
-    //maven("https://repo.codemc.io/repository/maven-releases/")
+    maven("https://repo.codemc.io/repository/maven-releases/")
     maven("https://jitpack.io")
 
     //Jcloak
@@ -32,15 +32,15 @@ dependencies {
     //kapt("com.velocitypowered:velocity-api:3.3.0-SNAPSHOT")
 
     //Plugins
-    compileOnly("com.github.retrooper.packetevents:spigot:2.0.2")
-    //compileOnly("com.github.MilkBowl:VaultAPI:1.7")
+    compileOnly("com.github.retrooper:packetevents-spigot:2.4.0")
+    compileOnly("com.github.MilkBowl:VaultAPI:1.7")
     //compileOnly("me.clip:placeholderapi:2.11.4")
 
     //Commands
-    compileOnly("dev.jorel:commandapi-bukkit-shade:9.3.0")
+    compileOnly("dev.jorel:commandapi-bukkit-shade:9.4.2")
     //compileOnly("org.incendo:cloud-paper:2.0.0-beta.2")
 
-    compileOnly("org.reflections:reflections:0.9.12")
+    implementation("org.reflections:reflections:0.9.12")
 }
 
 tasks.processResources {

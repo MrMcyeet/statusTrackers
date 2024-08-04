@@ -1,9 +1,9 @@
-name: Template-Plugin
+name: statusTrackers
 version: '${version}'
-main: me.mcyeet.templateplugin.Template_Plugin
+main: me.mcyeet.statusTrackers.StatusTrackers
 api-version: '1.16'
 depend: [Vault]
 authors: [MrMcyeet]
 libraries:
   - org.jetbrains.kotlin:kotlin-stdlib:1.9.0
-#  - dev.jorel:commandapi-bukkit-shade:9.3.0
+  - dev.jorel:commandapi-bukkit-shade:9.4.2

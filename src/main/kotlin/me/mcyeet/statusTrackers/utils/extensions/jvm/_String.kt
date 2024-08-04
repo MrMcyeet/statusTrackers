@@ -1,4 +1,4 @@
-package me.mcyeet.templateplugin.utils.extensions.jvm
+package me.mcyeet.statusTrackers.utils.extensions.jvm
 
 import org.bukkit.Bukkit
 import org.bukkit.ChatColor

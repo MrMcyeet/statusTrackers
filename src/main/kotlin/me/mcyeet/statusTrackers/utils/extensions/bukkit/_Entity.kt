@@ -1,4 +1,4 @@
-package me.mcyeet.templateplugin.utils.extensions.bukkit
+package me.mcyeet.statusTrackers.utils.extensions.bukkit
 
 import org.bukkit.entity.Entity
 import org.bukkit.entity.Flying

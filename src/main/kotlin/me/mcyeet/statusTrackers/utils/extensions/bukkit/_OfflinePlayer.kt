@@ -1,4 +1,4 @@
-package me.mcyeet.templateplugin.utils.extensions.bukkit
+package me.mcyeet.statusTrackers.utils.extensions.bukkit
 
 //import com.github.retrooper.packetevents.PacketEvents
 //import com.github.retrooper.packetevents.wrapper.PacketWrapper

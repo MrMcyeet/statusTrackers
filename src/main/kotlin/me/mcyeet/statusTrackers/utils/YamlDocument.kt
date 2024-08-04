@@ -1,7 +1,7 @@
-package me.mcyeet.templateplugin.utils
+package me.mcyeet.statusTrackers.utils
 
 import com.google.gson.Gson
-import me.mcyeet.templateplugin.utils.extensions.jvm._InputStream.writeTo
+import me.mcyeet.statusTrackers.utils.extensions.jvm._InputStream.writeTo
 import org.yaml.snakeyaml.Yaml
 import java.io.File
 import java.io.InputStream

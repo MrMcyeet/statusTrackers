@@ -1,4 +1,4 @@
-package me.mcyeet.templateplugin.utils.extensions.bungee
+package me.mcyeet.statusTrackers.utils.extensions.bungee
 
 import net.md_5.bungee.api.ChatColor
 
